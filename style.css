@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left , blue , red);
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.conteiner{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 10%;
+    height: 400px;
+    width: 480px;
+    background-color: aliceblue;
+}
+.conteudo{
+    margin-top: 40px;
+}
+label{
+    margin-left: 160px;
+}
+#nome{
+    margin-left: 160px;
+    width: 200px;
+}
+#senha{
+    margin-left: 160px;
+    width: 200px;
+}    
