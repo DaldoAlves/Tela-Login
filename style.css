@@ -2,8 +2,23 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: linear-gradient(to left , blue , red);
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    
+    background-image: url("img/fundoTela.jpeg"); /*configuracao para adicionar imagem como background*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#cabeca{
+    position: fixed;
+    background-color: antiquewhite;
+    width: 210px;
+    top: 0;
+    right: 0;
 }
 h2{
     text-align: center;
@@ -15,19 +30,27 @@ h2{
     margin-top: 10%;
     height: 400px;
     width: 480px;
-    background-color: aliceblue;
+    background-color: transparent;
+    z-index: 1;
 }
 .conteudo{
     margin-top: 40px;
 }
 label{
-    margin-left: 160px;
+    
+}
+.nom{
+    position: relative;
+    margin-left: 800px;
+}
+.sen{
+    position: relative;
+    margin-left: 1000px;
 }
 #nome{
-    margin-left: 160px;
-    width: 200px;
+    position: relative;
+    margin-left: 22px;   
 }
 #senha{
-    margin-left: 160px;
-    width: 200px;
+  
 }    
