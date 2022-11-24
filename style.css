@@ -8,7 +8,7 @@ body,html{
 }
 .bg{
     
-    background-image: url("./img/fundoTela.jpeg"); /*configuracao para adicionar imagem como background*/
+    background-image: url("fundoTela.jpeg"); /*configuracao para adicionar imagem como background*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
